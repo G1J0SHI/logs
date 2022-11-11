@@ -1,4 +1,4 @@
-# Logs for Dart/Flutter
+# Logster for Dart/Flutter
 
 ![publisher][publisher]
 ![version][version]
@@ -12,8 +12,8 @@
 
 ---
 
-[publisher]: https://img.shields.io/pub/publisher/logs
-[version]: https://img.shields.io/pub/v/logs
-[likes]: https://img.shields.io/pub/likes/logs
-[points]: https://img.shields.io/pub/points/logs
-[popularity]: https://img.shields.io/pub/popularity/logs
+[publisher]: https://img.shields.io/pub/publisher/logster
+[version]: https://img.shields.io/pub/v/logster
+[likes]: https://img.shields.io/pub/likes/logster
+[points]: https://img.shields.io/pub/points/logster
+[popularity]: https://img.shields.io/pub/popularity/logster

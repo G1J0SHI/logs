@@ -1,9 +1,9 @@
-name: logs
+name: logster
 description: An extensible logger for applications, packages and plugins.
 version: 0.0.1
 
-homepage: https://G1Joshi.dev/docs/logs/about/
-repository: https://github.com/G1J0SHI/logs
+homepage: https://G1Joshi.dev/docs/logster/about/
+repository: https://github.com/G1J0SHI/logster
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
