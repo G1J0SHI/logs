@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="made with love by dartdoc 6.0.0">
+  <meta name="description" content="logster API docs, for the Dart programming language.">
+  <title>logster - Dart API docs</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static-assets/github.css?v1">
+  <link rel="stylesheet" href="static-assets/styles.css?v1">
+  <link rel="icon" href="static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="" data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="https://G1Joshi.dev/docs/logster/about/">logster package</a></li>
+  </ol>
+  <div class="self-name">logster</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      
+<section class="desc markdown">
+  <h1 id="logster-for-dartflutter">Logster for Dart/Flutter</h1>
+<p><img src="https://img.shields.io/pub/publisher/logster" alt="publisher">
+<img src="https://img.shields.io/pub/v/logster" alt="version">
+<img src="https://img.shields.io/pub/likes/logster" alt="likes">
+<img src="https://img.shields.io/pub/points/logster" alt="points">
+<img src="https://img.shields.io/pub/popularity/logster" alt="popularity"></p>
+<hr>
+<p><strong><em>An extensible logger for applications, packages and plugins.</em></strong></p>
+<hr>
+<h2 id="features">Features</h2>
+<p>Logging and Debugging Tools</p>
+<hr>
+<h2 id="getting-started">Getting started</h2>
+<p>To add the package, <code>logster</code>, in a project:</p>
+<ol>
+<li>
+<p>Depend on it</p>
+<ul>
+<li>
+<p>Add <code>logster</code> under <code>dependencies</code> in the <code>pubspec.yaml</code> file</p>
+<pre class="language-yaml"><code class="language-yaml">dependencies:
+  logster: any
+</code></pre>
+</li>
+<li>
+<p>Or run this command</p>
+<pre class="language-sh"><code class="language-sh">dart pub add logster
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Install it</p>
+<ul>
+<li>
+<p>From the terminal: Run</p>
+<pre class="language-sh"><code class="language-sh">dart pub get
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Import it</p>
+<ul>
+<li>
+<p>Add a corresponding <code>import</code> statement in the source code</p>
+<pre class="language-dart"><code class="language-dart">import 'package:logster/logster.dart';
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="usage">Usage</h2>
+<p>To use the package, add the <code>.logs</code> extension to any variable, and it will print a log to the console along with its runtime type.</p>
+<pre class="language-dart"><code class="language-dart">var a = 10;
+a.logs; // [int] 10
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var b = 2.0;
+b.logs; // [double] 2.0
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var c = 'x';
+c.logs; // [String] x
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var d = true;
+d.logs; // [bool] true
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var e = [a, b];
+e.logs; // [List&lt;num&gt;] [10, 2.0]
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var f = {c, d};
+f.logs; // [CompactImmutableLinkedHashSet&lt;Object&gt;] {x, true}
+</code></pre>
+<pre class="language-dart"><code class="language-dart">var g = {a: b, c: d};
+g.logs; // [InternalImmutableLinkedHashMap&lt;Object, Object&gt;] {10: 2.0, x: true}
+</code></pre>
+<hr>
+</section>
+
+
+      <section class="summary">
+          <h2>Libraries</h2>
+        <dl>
+          <dt id="logster">
+  <span class="name"><a href="logster/logster-library.html">logster</a></span> 
+
+</dt>
+<dd>An extensible logger for applications, packages and plugins
+</dd>
+
+        </dl>
+      </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="https://G1Joshi.dev/docs/logster/about/">logster package</a></li>
+</ol>
+
+
+    <h5 class="hidden-xs"><span class="package-name">logster</span> <span class="package-kind">package</span></h5>
+    <ol>
+      <li class="section-title">Libraries</li>
+      <li><a href="logster/logster-library.html">logster</a></li>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div>
+
+</main>
+
+<footer>
+  <span class="no-break">
+    logster
+      0.1.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="static-assets/highlight.pack.js?v1"></script>
+<script src="static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
