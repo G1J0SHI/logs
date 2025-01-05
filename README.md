@@ -5,6 +5,7 @@
 ![likes][likes]
 ![points][points]
 ![popularity][popularity]
+![downloads][downloads]
 
 ---
 
@@ -101,3 +102,4 @@ g.logs; // [InternalImmutableLinkedHashMap<Object, Object>] {10: 2.0, x: true}
 [likes]: https://img.shields.io/pub/likes/logster
 [points]: https://img.shields.io/pub/points/logster
 [popularity]: https://img.shields.io/pub/popularity/logster
+[downloads]: https://img.shields.io/pub/dm/logster
